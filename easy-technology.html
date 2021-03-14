@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="dns-prefetch" href="//ajax.googleapis.com">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//syndication.twitter.com">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Easy Technology</title>
+        <meta name="author" content="Rob Grant">
+
+
+        <meta name="description" content="">
+
+        <!-- http://t.co/dKP3o1e -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+		<link rel="icon" href="/theme/img/favicon.ico">
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+		<meta name="msapplication-TileColor" content="#e8780c">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<link href='http://fonts.googleapis.com/css?family=Oswald:300%7CKhula%7CFenix%7CRoboto+Condensed:300' rel='stylesheet' type='text/css' >
+		<link property='stylesheet' type="text/css" rel="stylesheet" href="theme/css/normalize.css">
+		<link property='stylesheet' type="text/css" rel="stylesheet" href="theme/css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="orangeback">
+
+        </div>
+
+        <header>
+        	<div id="header-heading">
+        		<h1 class="heading"><a href="/"><img src="theme/img/logo-white-blinking.gif" alt="Rob Online" /></a></h1>
+        	</div>
+        </header>
+
+        <div id="whiteback">
+
+			<main>
+				<div id="lefty">
+
+				</div>
+
+			<div id="articles">
+				<article itemscope itemtype="http://schema.org/BlogPosting">
+						<header>
+							<h1><a href="/easy-technology.html">Easy Technology</a></h1>
+							<span class="byline">by Rob, from <time class="timeago" itemprop="datePublished" datetime="2020-09-16T18:18:00+00:00">Wed 16 September 2020</time></span>
+						</header>
+						<div class="article-content">
+							<p><em>Originally published on Medium, <a href="https://medium.com/@robertlagrant/easy-technology-131ecce16277">here</a>.</em></p>
+<p><em>I just read <a href="https://steve-yegge.medium.com/dear-google-cloud-your-deprecation-policy-is-killing-you-ee7525dc05dc">Steve Yegge’s Dear Google Cloud: Your Deprecation Policy is Killing You</a>. I agree. It inspired the following. Apologies for the word “techie” — it’s meant to be a catch-all:</em></p>
+<p>There’s a lot involved in trust and tech. There’s never been a time when a grizzled, round-shouldered older techie didn’t mistrust something or other, and a young techie didn’t think they were just being cynical.</p>
+<p>For those carrying a touch of grizzle themselves, that mistrust is more understandable. Most mistrust seems to not be directed purely at the new or the unfamiliar — although that happens — but at the ever-alluring promise of Easy Technology.</p>
+<div class="image">
+    <img src="theme/img/robonline-9-1.png" alt="Silly cloud strategy" />
+    <p>Top secret strategy for winning</p>
+</div>
+
+<p>This has happened throughout the decades. Products that write code. AI that writes products. Frameworks that do all the work. Tools that are “just config”. And now we are firmly in the age of Cloud making infrastructure problems a thing of the past.</p>
+<p>Grizzled techies warily eye this new promise, enumerate the pros and cons, and grudgingly conclude that there might be something to it, in some cases. They observe an economy of scale that would allow cloud providers to offer services at a lower price than spinning them up and maintaining them themselves. Perhaps the Cloud could be a good thing?</p>
+<p>Then they spy additional services that proffer the same simplicity, but for platforms rather than infrastructure. Renting a PostgreSQL database run by someone else? That might be worth it. Using an out of the box Kubernetes? That makes sense. They have a proprietary messaging service? Okay, well I suppose…wait. Proprietary? It’s not just, say, JMS in the cloud? We have to write code that will only work on this cloud provider?</p>
+<p>And here begins the process of scrutinizing all of the pieces of a cloud service. The calculus of what subset of cloud services offers the best combination of engineering speed, operational costs, cloud costs, and lock-in. (There must be analyst teams in each cloud vendor figuring out exactly where the line is to put the total cost of ownership for the first year just where it needs to be to achieve lock-in.)</p>
+<p>At some point the grizzled start saying things like, “You realise that Clouds are like supermarkets? They might get you in with 2 for 1 Kubernetes, but they’ll make it back double on the logging service you didn’t think you had to be price-sensitive about.” And less grizzled techies roll their eyes and carry on.</p>
+<p>But they say this for a reason. Some areas that Clouds cover are common, fungible commodities. Renting a server, a network, a firewall, a hard disk or even a database is relatively safe, because it is transferable to another provider.</p>
+<p>Other areas are bespoke, and accepting them as part of a technical architecture can be a useful move, but it requires a gradual melding, like the Icebreaker technology in Neuromancer, of product and cloud vendor. The result is software that is comprised of a continuum of creations and procurements from technical product to cloud vendor technology. This is the ideal profit situation for the cloud vendor.</p>
+<p>Except for Google Cloud. It appears to not be what they want at all. Products and APIs are deprecated at an alarming rate, and it’s hard to know what to build with. Renting infrastructure is fine, as is renting very standard components such as Kubernetes (although that’s also got its deprecation issues, at least it’s still an under-development product, and can be allowed more latitude). Renting some of the other services is a more fraught activity. Here’s July 2020’s deprecation list:</p>
+<div class="image">
+    <img src="theme/img/robonline-9-2.png" alt="List of (semi-)deprecated Google Cloud products" />
+    <p>Just trust our cloud</p>
+</div>
+
+<p>Google apparently prizes perfect engineering over business sense. Other platforms have the opposite problem. Oracle Cloud is a triumph of business strategy over engineering, and despite heroic technical efforts is floundering hard as a result. Azure gets the basics right, but really, really pushes lock-in, and can’t help constantly rebranding (how long until it’s Microsoft Cloud?)</p>
+<p>Speaking of Microsoft, there is an interesting trend arising where Microsoft is starting to heavily embrace (yes) open source software. Their Edge Web browser (soon Microsoft Explorer, Internet Edition?) is built on Chromium, with Google doing the hard yards of rendering and performance code, and Microsoft providing enterprise features on top. This means they can do the part they do best — interoperability with other Microsoft products such as Active Directory (Microsoft Directory, Active Edition?) — and get the rest free.</p>
+<p>Similarly, Kubernetes. Looking to become the default for hosting environments, if it isn’t already, Microsoft provide a hosted equivalent in Azure. They have also released Open Service Mesh (OSM) to be fast-tracked, OpenXML-style, as a CNCF project. Coupled with Google’s slight odd behaviour around the trademark for their Istio service mesh, Microsoft perhaps have spotted an opening to be the layer in between the layer in between, so apps can be built to run in OSM, and Kubernetes becomes just another infrastructure layer. And who knows? Perhaps one day OSM will get Microsoft’s Service Fabric as an alternative backend, so Windows and Linux can be hosted, and that will of course work best in Azure.</p>
+<p>As an alternative strategy, buying NPM and Github is interesting. Microsoft are making some clear moves to purchase entire creative ecosystems, with no end in sight.</p>
+<p>Which is not exactly a criticism of Microsoft; it’s pretty clear what they are. It is perhaps a criticism of businesses who choose Azure, knowing this is what Microsoft are like, always teetering on the edge of acceptability, but anyway. Azure certainly makes sense for cloud-hosting Windows software. And at least they aren’t Oracle.</p>
+<p>What is less clear is Google’s cloud strategy. Google has the technical ability to become the number one cloud provider in the world one day, if only they could decide they wanted it badly enough, and didn’t give up.</p>
+<p>They gave up on Google+, and look at Quora and Medium and Ghost and Squarespace now. It could’ve been all of those at once, ten years ago. They gave up on Wave, and along came Slack and Teams. Google seems too scared of customers, or too unwilling to commit, to iterate, and to capitalise on their amazing ideas and technology.</p>
+<p>And sometimes, like Goo.gl transitioning to Firebase Dynamic Links (Enterprise Edition, anyone?), it just seems completely pointless. (Is the Firebase brand the systemd-like plague of the Google enterprise, infecting all it touches with its ravening, inhuman drive?)</p>
+<p>The grizzled techie has a stake in this. Not because of any particular allegiance (positive attitude towards any cloud provider is inversely correlated with how recently one read a news article about them) but because AWS are the strongest, and getting stronger, and every time Azure gains market share they emit a putrefying air of stifling, triumphant lock-in. Google are the underdog here. They are still frantically inventing, and creating like mad, and they prize engineering above all. That has to be a good thing. And they do not promise Easy Technology, although they do strive for As Easy As Possible. To be fair, the same is true for AWS.</p>
+<p>But Google must recognise that a jumble of incredibly well engineered cloud services isn’t going to cut it when AWS are the default option, and Microsoft own the corporate, and increasingly an end to end dev and cloud stack as well, and both still pick and choose the best tech that Google CNCF’d for them.</p>
+<p>Here are some closing thoughts about how Google Cloud Platform can improve its position. Some are specific to mid-2020, and all have the arrogance of the only mildly grizzled :-)</p>
+<ol>
+<li>Be the première Kubernetes cloud experience, even more than right now. Beautiful dashboards, monitoring, everything built in. Comes free with your Kubernetes offering other than the cost of the storage. Cloud Code is a great move in the dev side of this, simplifying the development process in Kubernetes. Doing the same for ops would be fantastic.</li>
+<li>Fix the Istio issue. The point above is what will differentiate you, not Istio’s trademark. This could be the Anthos strategy.</li>
+<li>Offer a Kubernetes experience that doesn’t expose nodes, such as AWS Fargate for EKS. You should be able to build this better than anyone. Maybe charge extra for cool additions such as configurable AI-driven autoscaling.</li>
+<li>Bless and adopt KubeMQ (or similar) and build tooling around it, so you can have a great pub-sub mechanism on Kubernetes, which is a differentiator against AWS and Azure, and doesn’t lock people in. Knative eventing looks cool, but that currently does not appear to address more “business logic” level tools such as durable queues.</li>
+<li><s>Bless and adopt an in-Kubernetes Serverless technology, such as Fission. Or make your own.</s> You did this already! Knative is Google. Try and match the experience of running Knative on GKS to the nice Google Cloud Run one.</li>
+<li>Buy Docker. You will be able to turn the containerisation and orchestration lead into a significant advantage. Additionally, your Kubernetes-focused strategy has most to lose from Docker crashing and burning.</li>
+<li>Buy a CI provider, such as CircleCI. Maybe even GitLab. Integrate them extremely well.</li>
+<li>Get every certification/standard you can. The Deutsche Bank deal is a good sign you can play and win in regulated environments. Keep going. Health is big. Privacy Shield being dropped is big — have a good answer for this.</li>
+<li>Interoperate your auth with Azure AD in a point and click simple way for IT folk to set up. Give them no reason to say “Azure is just easier”.</li>
+<li>Copy what MS are doing to you with Chromium and Kubernetes: use the VSCode open source base to make a cloud-based IDE that makes writing (or perhaps just editing?) code for Google Cloud very straightforward. codesandbox.io use it to great effect.</li>
+</ol>
+<p>Thus endeth the armchair strategizing. The grizzled are really keen to see how cloud technologies and vendors improve in the next few years, and whether lock-in really is inevitable, or even required for a successful cloud business. They also appear keen on making technology As Easy As Possible, and no easier.</p>
+<p>Final thought: why aren’t Facebook a cloud provider?</p>
+<p><em>Afterthought: if someone wants to make a website that has adverts on it, can they use the AdWords revenue to pay for the cloud hosting, and just get paid the difference (or pay the difference)? It’d be a pretty handy feature that the other cloud platforms would struggle to replicate.</em></p>
+						</div>
+				</article>
+			</div>
+
+			</main>
+
+			<footer>
+				<a href="#" class="totop">&uarr;</a>
+
+				<p>Copyright Robert Grant 2015-2020</p>
+
+				<p>
+					<a href="https://stackoverflow.com/users/61938/robert-grant"><img src="theme/img/stackoverflow-logo-white-32x32.png" alt="Me on Stack Overflow" /></a>
+					<a href="https://github.com/robertlagrant"><img src="theme/img/GitHub-Mark-Light-64px.png" style="height: 36px" alt="Me on Github" /></a>
+					<a href="http://twitter.com/robertlagrant"><img src="theme/img/twitter-logo-white-32x32.png" alt="Me on Twitter" /></a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40px" height="40px" id="RSSicon" viewBox="0 -32 256 256">
+							<circle cx="68" cy="189" r="24" fill="#FFF"/>
+							<path d="M160 213h-34a82 82 0 0 0 -82 -82v-34a116 116 0 0 1 116 116z" fill="#FFF"/>
+							<path d="M184 213A140 140 0 0 0 44 73 V 38a175 175 0 0 1 175 175z" fill="#FFF"/>
+						</svg></a>
+				</p>
+			</footer>
+		</div>
+
+        <script src="theme/js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="theme/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.min.js"></script>
+		<script>window.jQuery || document.write('<script src="theme/js/vendor/jquery.timeago-1.4.1.min.js"><\/script>')</script>
+
+        <script src="theme/js/plugins.js"></script>
+        <script src="theme/js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>-->
+    </body>
+</html>
